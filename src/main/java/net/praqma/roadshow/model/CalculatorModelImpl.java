@@ -2,6 +2,8 @@ package net.praqma.roadshow.model;
 
 public class CalculatorModelImpl implements CalculatorModel {
 
+    String st;
+
     @Override
     public Number multiply(Number... numbers) {
         double res = 1d;
